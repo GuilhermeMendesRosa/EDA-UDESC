@@ -1,5 +1,11 @@
 #include <stdlib.h>
 
+/*
+Escreva uma função que troca os valores entre duas variáveis do tipo float. Faça um
+programa que leia duas variáveis e mostre seus valores na tela. Em seguida, troque os
+valores (usando a função) e mostre novamente os valores.
+*/
+
 void inverteValor(float *ponteiroNumero1, float *ponteiroNumero2) {
     float auxiliar = *(ponteiroNumero1);
     *(ponteiroNumero1) = *(ponteiroNumero2);

@@ -1,5 +1,10 @@
 #include <stdlib.h>
 
+/*
+Escreva uma função que recebe um vetor e sua capacidade como parâmetros e precisa
+“retornar” o maior e o menor valores do vetor.
+*/
+
 void encontrandoMaiorEMenor(int *vetor, int tamanhoDoVetor, int *min, int *max) {
     int maiorValor = vetor[0], menorValor = vetor[0];
 

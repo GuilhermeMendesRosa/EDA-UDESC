@@ -1,5 +1,10 @@
 #include <stdlib.h>
 #include <math.h>
+
+/*
+Faça uma função que calcula o perímetro e a área de um círculo, dado o raio.
+*/
+
 void calculaCirculo(float raio, float *perimetro, float *area) {
     *perimetro = 2 * M_PI * raio;
     *area = M_PI * pow(raio, 2);
